@@ -1,0 +1,409 @@
+
+   [
+    {
+      "studentId": 100001,
+      "studentName": "Barış",
+      "studentSurname": "Aygün",
+      "courses": [
+        [2007,80,85],
+        [2801,85,78],
+        [2855,75, 70],
+        [2001,75, 52],
+        [3507,85, 68]
+      ]
+    },
+    {
+      "studentId": 100002,
+      "studentName": "Ayşe",
+      "studentSurname": "Yılmaz",
+      "courses": [
+        [2007,80,15],
+        [2855,7, 50],
+        [2001,45, 22],
+        [3507,77, 44]
+      ]
+    },
+    {
+      "studentId": 100003,
+      "studentName": "Ahmet",
+      "studentSurname": "Demir",
+      "courses": [
+        [2007,80,85],
+        [2801,85,78],
+        [2855,75, 70],
+        [2001,75, 52],
+        [3507,85, 68]
+      ]
+    },
+    {
+      "studentId": 100004,
+      "studentName": "Deniz",
+      "studentSurname": "Bilgin",
+      "courses": [
+        [2007,80,85],
+        [2801,85,78],
+       [3507,85, 68]
+      ]
+    },
+    
+    {
+      "studentId": 100005,
+      "studentName": "Merve",
+      "studentSurname": "Yıldız",
+      "courses": [
+        [2007,80,85],
+        [2801,85,78],
+        [2855,75, 70]
+        
+      ]
+    },
+    {
+      "studentId": 100002,
+      "studentName": "Ahmet",
+      "studentSurname": "Yılmaz",
+      "courses": [
+        [2007, 78, 90],
+        [2801, 82, 76],
+        [2855, 70, 65],
+        [2001, 80, 75],
+        [3507, 88, 70]
+      ]
+    },
+    {
+      "studentId": 100003,
+      "studentName": "Ayşe",
+      "studentSurname": "Kaya",
+      "courses": [
+        [2007, 88, 85],
+        [2801, 90, 82],
+        [2855, 78, 75],
+        [2001, 85, 68],
+        [3507, 82, 80]
+      ]
+    },
+    {
+      "studentId": 100004,
+      "studentName": "Cem",
+      "studentSurname": "Şahin",
+      "courses": [
+        [2007, 92, 88],
+        [2801, 75, 82],
+        
+        [2001, 78, 75],
+        [3507, 85, 80]
+      ]
+    },
+    {
+      "studentId": 100005,
+      "studentName": "Derya",
+      "studentSurname": "Yıldız",
+      "courses": [
+        [2007, 85, 90],
+        [2801, 1, 75],
+        [2855, 78, 82],
+        [2001, 70, 2],
+        [3507, 75, 88]
+      ]
+    },
+    {
+      "studentId": 100006,
+      "studentName": "Eren",
+      "studentSurname": "Demir",
+      "courses": [
+        [2007, 75, 5],
+        [2801, 78, 85],
+        [2855, 77, 90],
+        [2001, 68, 11],
+        [3507, 90, 82]
+      ]
+    },
+    {
+      "studentId": 100007,
+      "studentName": "Feyza",
+      "studentSurname": "Kurt",
+      "courses": [
+        [2007, 80, 85],
+        [2801, 85, 78],
+        [2855, 55, 70],
+        [2001, 75, 44],
+        [3507, 85, 44]
+      ]
+    },
+    {
+      "studentId": 100008,
+      "studentName": "Gökhan",
+      "studentSurname": "Şen",
+      "courses": [
+        [2007, 78, 55],
+        [2801, 45, 76],
+       [3507, 88, 21]
+      ]
+    },
+    {
+      "studentId": 100009,
+      "studentName": "Hande",
+      "studentSurname": "Erdem",
+      "courses": [
+        [2007, 88, 85],
+        [2801, 21, 82],
+        [2855, 78, 75],
+        [2001, 85, 68],
+        [3507, 82, 12]
+      ]
+    },
+    {
+      "studentId": 100010,
+      "studentName": "Irmak",
+      "studentSurname": "Gündüz",
+      "courses": [
+        [2007, 92, 88],
+        [2801, 75, 82],
+        [2855, 88, 90],
+        [2001, 78, 75],
+        [3507, 85, 80]
+      ]
+    },
+    {
+      "studentId": 100011,
+      "studentName": "Jale",
+      "studentSurname": "Taş",
+      "courses": [
+        [2007, 85, 90],
+        [2801, 80, 75],
+        [2855, 78, 82],
+        [2001, 70, 68],
+        [3507, 75, 88]
+      ]
+    },
+    {
+      "studentId": 100012,
+      "studentName": "Kaan",
+      "studentSurname": "Çelik",
+      "courses": [
+        [2007, 75, 80],
+        [2801, 78, 85]
+        
+      ]
+    },
+    {
+      "studentId": 100013,
+      "studentName": "Lale",
+      "studentSurname": "Özdemir",
+      "courses": [
+        [2007, 80, 85],
+        [2801, 85, 78],
+        [2855, 10, 70],
+        [2001, 75, 10],
+        [3507, 85, 68]
+      ]
+    },
+    {
+      "studentId": 100014,
+      "studentName": "Mert",
+      "studentSurname": "Kaya",
+      "courses": [
+        [2007, 78, 90],
+        [2801, 82, 76],
+        [2855, 15, 65],
+        [2001, 80, 12],
+        [3507, 88, 70]
+      ]
+    },
+    {
+      "studentId": 100015,
+      "studentName": "Nihan",
+      "studentSurname": "Yılmaz",
+      "courses": [
+        [2007, 88, 85],
+        [3507, 82, 80]
+      ]
+    },
+    {
+      "studentId": 100016,
+      "studentName": "Onur",
+      "studentSurname": "Aydın",
+      "courses": [
+        [2007, 92, 88],
+        [2801, 75, 82],
+        [3507, 85, 80]
+      ]
+    },
+    {
+      "studentId": 100017,
+      "studentName": "Pelin",
+      "studentSurname": "Yıldırım",
+      "courses": [
+        [2007, 85, 90],
+        [2801, 80, 75],
+        [2855, 78, 82],
+        [2001, 70, 68],
+        [3507, 75, 88]
+      ]
+    },
+    {
+      "studentId": 100018,
+      "studentName": "Ramazan",
+      "studentSurname": "Kara",
+      "courses": [
+        [2007, 75, 80],
+        [2801, 78, 85],
+        [2001, 68, 75],
+        [3507, 90, 82]
+      ]
+    },
+    {
+      "studentId": 100019,
+      "studentName": "Selin",
+      "studentSurname": "Demir",
+      "courses": [
+        [2007, 80, 85],
+        [2801, 85, 78],
+        [2855, 75, 70],
+        [2001, 75, 52],
+        [3507, 85, 68]
+      ]
+    },
+    {
+      "studentId": 100020,
+      "studentName": "Tolga",
+      "studentSurname": "Aksoy",
+      "courses": [
+        [2007, 78, 90],
+        [2801, 82, 76],
+        [2855, 70, 65],
+        [2001, 80, 75],
+        [3507, 88, 70]
+      ]
+    },
+    {
+      "studentId": 100021,
+      "studentName": "Umut",
+      "studentSurname": "Erdoğan",
+      "courses": [
+        [2007, 88, 85],
+        [2001, 85, 68],
+        [3507, 82, 80]
+      ]
+    },
+    {
+      "studentId": 100022,
+      "studentName": "Vildan",
+      "studentSurname": "Öztürk",
+      "courses": [
+        [2007, 92, 88],
+        [2801, 75, 82],
+        [2855, 88, 90],
+        [2001, 78, 75],
+        [3507, 85, 80]
+      ]
+    },
+    {
+      "studentId": 100023,
+      "studentName": "Yasin",
+      "studentSurname": "Yavuz",
+      "courses": [
+        [2007, 85, 90],
+        [2801, 80, 75],
+        [2855, 78, 82],
+        [2001, 70, 68],
+        [3507, 75, 88]
+      ]
+    },
+    {
+      "studentId": 100024,
+      "studentName": "Zehra",
+      "studentSurname": "Gök",
+      "courses": [
+        [2007, 75, 80],
+        [2801, 78, 85],
+        [2855, 85, 90],
+        [2001, 68, 75],
+        [3507, 90, 82]
+      ]
+    },
+    {
+      "studentId": 100025,
+      "studentName": "Ahmet",
+      "studentSurname": "Koç",
+      "courses": [
+        [2007, 80, 45]
+       
+      ]
+    },
+    {
+      "studentId": 100026,
+      "studentName": "Aylin",
+      "studentSurname": "Türk",
+      "courses": [
+        [2007, 78, 90],
+        [2801, 82, 76],
+        [2855, 70, 65],
+        [2001, 80, 75],
+        [3507, 88, 70]
+      ]
+    },
+    {
+      "studentId": 100027,
+      "studentName": "Berke",
+      "studentSurname": "Yiğit",
+      "courses": [
+        [2007, 88, 85],
+        [2801, 90, 82]
+       
+      ]
+    },
+    {
+      "studentId": 100028,
+      "studentName": "Cansu",
+      "studentSurname": "Demirtaş",
+      "courses": [
+        [2007, 92, 88],
+        [2801, 75, 82],
+        [2855, 88, 90],
+        [2001, 78, 75],
+        [3507, 24, 42]
+      ]
+    },
+    {
+      "studentId": 100029,
+      "studentName": "Deniz",
+      "studentSurname": "Bulut",
+      "courses": [
+        [2007, 85, 90],
+        [3507, 75, 88]
+      ]
+    },
+    {
+      "studentId": 100030,
+      "studentName": "Elif",
+      "studentSurname": "Uzun",
+      "courses": [
+        [2007, 75, 80],
+        [2801, 78, 85],
+        [2855, 10, 25],
+        [2001, 68, 75],
+        [3507, 44, 52]
+      ]
+    },
+    {
+      "studentId": 100031,
+      "studentName": "Fatih",
+      "studentSurname": "Çetin",
+      "courses": [
+        
+        [2001, 75, 52],
+        [3507, 85, 68]
+      ]
+    },
+    {
+      "studentId": 100032,
+      "studentName": "Gamze",
+      "studentSurname": "Yalçın",
+      "courses": [
+        [2007, 78, 45],
+        [2801, 21, 76],
+        [2855, 70, 65]
+        
+      ]
+    }
+  ]

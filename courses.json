@@ -1,0 +1,48 @@
+[
+    
+      {
+        "courseId": 2007,
+        "courseName": "Digital Logic",
+        "gradingScale": 10,
+        "credits": 6
+        
+      },
+      {
+        "courseId": 2801,
+        "courseName": "General Chemistry",
+        "gradingScale": 7,
+        "credits": 6
+        
+      },
+      {
+        "courseId": 2855,
+        "courseName": "Differential Equations",
+        "gradingScale": 10,
+        "credits": 5
+        
+      },
+      {
+        "courseId": 2001,
+        "courseName": "Data Structures and Algorithms",
+        "gradingScale": 10,
+        "credits": 7
+         
+         
+      },
+      {
+        "courseId": 3507,
+        "courseName": "Web Development and Programming",
+        "gradingScale": 10,
+        "credits": 5
+       
+      },
+      {
+        "courseId": 1851,
+        "courseName": "Calculus",
+        "gradingScale": 10,
+        "credits": 6
+       
+      }
+    
+    ]
+ 

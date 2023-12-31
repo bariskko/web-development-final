@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <script  src ="./courses.js" defer></script>
+    <link rel="stylesheet" href="./courses_management.css">
+    <title>Course Management - Mugla Universty</title>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+        <div class ="logo1">
+            <h1><a href="#">MUGLA UNIVERSTY</a></h1>
+    </div>
+        
+
+    <div class="button">
+      <div id="home" class="home">
+            <img src ="images/home.png" />
+        </div>
+        <div class ="announcement">
+            <img src ="images/announcement.png" />
+        </div>
+    </div>
+</header>
+<div class="leftside">
+  <div class="box">
+      <li><a id="addstudent" href="#students">Students Management</a></li>
+  </div>
+  <div class="box">
+      <li><a id= "addcourse"href="#courses">Courses Management</a></li>
+  </div>
+  
+  </div>
+  <div class="bodyside">
+  <form id="addCourseForm">
+    <input type="number" min="1" id="add-courseId" placeholder="courseId" required>
+    <input type="text" id="add-courseName" placeholder="courseName" required>
+    <select id="gradingScale">
+      <option value="10">10-Point Scale</option>
+      <option value="7">7-Point Scale</option>
+    </select>
+    <input type="text" id="add-credits" placeholder="credits" required>
+    <button type="submit">Add Course</button>
+  </form>
+  <form id="updateCourseForm">
+    <input type="number" min="1" id="update-courseId" placeholder="Course ID" required>
+    <input type="text" id="update-courseName" placeholder="Course Name" required>
+    <input type="text" id="update-gradingScale" placeholder="Grading Scale" required>
+    <input type="number" min="1" id="update-credits" placeholder="Credits" required>
+    <button type="submit">Update Course</button>
+</form>
+<form id="deleteCourseForm">
+ <input type="number" min="1" id="delete-courseId" placeholder="Course ID" required>
+  <button type="submit">Delete Course</button>
+</form>
+    
+    <div id="courses-table">
+
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+html{
+    scroll-behavior:smooth ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body {
+    position: relative;
+    min-height: 250vh;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    padding: 100px 0;
+}
+.section_title{
+    margin-bottom: 30px;
+
+}
+.section_title h1{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+/* ---------------Header---------------*/
+header{
+    background: #062e51;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+}
+
+.navbar h1 a{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    display: flex;
+    color: #fff;
+    margin-right: 2rem;
+}   
+
+
+.button{
+    display: flex;
+
+}
+.home{
+    padding: 0.6rem;
+    cursor: pointer;
+}
+.home img{
+    height: 2rem;
+        
+}
+.home:hover{
+    background:cyan;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+    
+}
+.announcement{
+    padding: 0.6rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.announcement img{
+    height: 2rem;
+   
+}
+
+.announcement:hover{
+    background:cyan;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+}
+/*-----LEFTSİDE------*/
+.leftside{
+    margin-top: 5rem;
+    width: 16vw;
+    background-color:#062e51;
+    position: fixed;
+    height: 100%;
+}
+
+.box a{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    height: 3rem;
+    padding: 0.6rem;
+    margin: 0.2rem;
+    margin-top: 2rem;
+    
+}
+
+
+.box a:hover{
+    background:cyan;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+    color: black;
+}
+@media only screen and (max-width: 1330px) {
+    /* 1330px'e kadar olan ekran boyutları için stil değişiklikleri buraya gelecek */
+    .navbar h1 a {
+        margin-right: 1rem; /* Örnek: Başlık arasındaki boşluğu azalt */
+    }
+    .leftside{
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /* 900px'e kadar olan ekran boyutları için stil değişiklikleri buraya gelecek */
+    .navbar h1 a {
+        font-size: 1.5rem; /* Örnek: Başlık font büyüklüğünü küçült */
+    }
+
+    .leftside {
+        width: 100%;
+        height: 25%; /* Sol menüyü gizle */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .navbar {
+        height: 80px; 
+    }
+    .navbar h1 a {
+        font-size: 1.3rem; 
+    }
+    .navbar img{
+        height: 1.5rem;
+    }
+}
+
